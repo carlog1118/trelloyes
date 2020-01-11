@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Component Renders in UI as expected 1`] = `
+<section
+  className="List"
+>
+  <header>
+    the header
+  </header>
+  <div
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <button
+        type="button"
+      >
+        Delete
+      </button>
+      <h3>
+        title 1
+      </h3>
+      <p>
+        content 1
+      </p>
+    </div>
+    <div
+      className="Card"
+    >
+      <button
+        type="button"
+      >
+        Delete
+      </button>
+      <h3>
+        title 2
+      </h3>
+      <p>
+        content 2
+      </p>
+    </div>
+    <button
+      className="List-add-button"
+      type="button"
+    >
+      + Add Random Card
+    </button>
+  </div>
+</section>
+`;
